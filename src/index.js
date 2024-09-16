@@ -17,6 +17,7 @@ console.log("Deepar version: " + deepar.version);
   // All the effects are in the public/effects folder.
   // Here we define the order of effect files.
   const effectList = [
+    "effects/Shoose.deepar",  
     "effects/Glasses_1.deepar",    
     "effects/aviator_sunglasses.deepar",    
   ];
@@ -35,7 +36,7 @@ console.log("Deepar version: " + deepar.version);
       rootPath: "./deepar-resources",
       additionalOptions: {
         cameraConfig: {
-          // facingMode: 'environment'  // uncomment this line to use the rear camera
+          facingMode: 'environment'  // uncomment this line to use the rear camera
         },
       },
     });
